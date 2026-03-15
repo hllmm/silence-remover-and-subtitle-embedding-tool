@@ -1,0 +1,16 @@
+profile=balanced
+ffmpeg_ref=release/7.1
+enable_nvenc=1
+enable_amf=1
+enable_qsv=1
+enable_x265=1
+
+protocols=file pipe
+demuxers=mov matroska avi mp3 wav flac aac ogg concat mpegts srt
+muxers=mov mp4 matroska mp3 wav flac ogg adts null mpegts
+bsfs=aac_adtstoasc
+filters=aformat aresample format scale afade atrim asetpts trim setpts concat silencedetect silenceremove subtitles color afftdn anlmdn highpass lowpass adeclick
+indevs=lavfi
+encoders=aac flac pcm_s16le srt libmp3lame libvorbis libx264 libx265 h264_nvenc hevc_nvenc h264_amf hevc_amf h264_qsv hevc_qsv
+decoders=aac ac3 eac3 flac mp3float vorbis opus pcm_s16le pcm_s24le pcm_s32le pcm_f32le pcm_f64le pcm_u8 pcm_alaw pcm_mulaw subrip wrapped_avframe h264 hevc mpeg4 mpeg2video mjpeg av1 vp8 vp9 vc1 prores h263
+parsers=aac ac3 flac h264 hevc mjpeg mpegaudio mpeg4video mpegvideo opus vorbis av1 vp8 vp9 vc1

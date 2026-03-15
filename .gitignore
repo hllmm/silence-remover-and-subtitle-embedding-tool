@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+
+api.env
+.env
+
+ffmpeg.exe
+ffprobe.exe
+
+.vscode/
+
+*_ciktilar/
+*_sessizlik_budanmis/
+
+fast_audio_test/
+fast_copy_test/
+tools/ffmpeg-minimal/work/

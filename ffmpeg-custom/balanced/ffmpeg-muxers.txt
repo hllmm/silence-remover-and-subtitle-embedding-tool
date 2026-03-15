@@ -1,0 +1,16 @@
+Formats:
+ D.. = Demuxing supported
+ .E. = Muxing supported
+ ..d = Is a device
+ ---
+  E  adts             
+  E  flac             
+  E  latm             
+  E  matroska         
+  E  mov              
+  E  mp3              
+  E  mp4              
+  E  mpegts           
+  E  null             
+  E  ogg              
+  E  wav              

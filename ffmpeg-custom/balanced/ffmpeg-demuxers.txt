@@ -1,0 +1,17 @@
+Formats:
+ D.. = Demuxing supported
+ .E. = Muxing supported
+ ..d = Is a device
+ ---
+ D   aac              
+ D   avi              
+ D   concat           
+ D   flac             
+ D d lavfi            
+ D   matroska,webm    
+ D   mov,mp4,m4a,3gp,3g2,mj2  
+ D   mp3              
+ D   mpegts           
+ D   ogg              
+ D   srt              
+ D   wav              

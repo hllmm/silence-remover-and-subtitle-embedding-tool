@@ -1,0 +1,24 @@
+Encoders:
+ V..... = Video
+ A..... = Audio
+ S..... = Subtitle
+ .F.... = Frame-level multithreading
+ ..S... = Slice-level multithreading
+ ...X.. = Codec is experimental
+ ....B. = Supports draw_horiz_band
+ .....D = Supports direct rendering method 1
+ ------
+ V....D libx264               (codec h264)
+ V....D h264_amf              (codec h264)
+ V....D h264_nvenc            (codec h264)
+ V..... h264_qsv              (codec h264)
+ V....D libx265               (codec hevc)
+ V....D hevc_amf              (codec hevc)
+ V....D hevc_nvenc            (codec hevc)
+ V..... hevc_qsv              (codec hevc)
+ A....D aac                  
+ A....D flac                 
+ A....D libmp3lame            (codec mp3)
+ A....D pcm_s16le            
+ A....D libvorbis             (codec vorbis)
+ S..... srt                   (codec subrip)
